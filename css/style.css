@@ -52,7 +52,6 @@ a {
 }
 .header-button {
   margin-left: auto;
-  margin-right: 200px;
 }
 .button {
   padding: 15px 30px;
@@ -142,9 +141,7 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-.logo-ipsum:last-child {
-  margin-right: 100px;
-}
+
 .more {
   background-color: #001;
   padding-top: 130px;
@@ -218,4 +215,33 @@ a {
   color: #ffffff;
   opacity: 0.7;
   max-width: 302px;
+}
+.about {
+  background-color: #010714;
+  padding-bottom: 180px;
+}
+.about-container {
+  max-width: 1350px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+.about-title {
+  max-width: 548px;
+}
+.about-description {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  opacity: 0.7;
+  max-width: 460px;
+}
+.about-description--1,
+.about-description--2,
+.about-description--3 {
+  margin-bottom: 20px;
 }
