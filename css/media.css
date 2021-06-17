@@ -1,0 +1,263 @@
+@media (max-width: 1350px) {
+  .header-container,
+  .hero-container,
+  .more-container,
+  .about-container,
+  .footer-container,
+  .slider-container {
+    width: 90%;
+  }
+  .more-img {
+    width: 550px;
+    height: 550px;
+    flex-shrink: 1;
+  }
+  .about-img {
+    width: 480px;
+    height: 480px;
+  }
+  .about-text {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .hero-title {
+    font-size: 45px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .hero-img {
+    width: 480px;
+    height: 480px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .header-logo {
+    margin-right: 50px;
+  }
+  .hero-text {
+    max-width: 400px;
+  }
+  .about-text {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1128px) {
+  .title {
+    font-size: 35px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+  }
+  .footer nav {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 1080px) {
+  .more-img {
+    margin-right: 20px;
+    width: 470px;
+    height: 470px;
+  }
+}
+@media (max-width: 992px) {
+  .header-list,
+  .header-button {
+    display: none;
+  }
+  .header-logo {
+    margin-right: 0;
+  }
+  .header-container {
+    justify-content: space-between;
+  }
+  .header-container,
+  .hero-container,
+  .more-container,
+  .about-container,
+  .footer-container,
+  .logos-ipsum-container {
+    width: 90%;
+  }
+  .header__burger {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  .header__burger span {
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+  .header__burger::before,
+  .header__burger::after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-text {
+    order: 1;
+  }
+  .hero-img {
+    margin-left: 0;
+    order: -1;
+    margin-bottom: 20px;
+  }
+  .logo-ipsum {
+    width: 150px;
+    height: 50px;
+    flex-basis: 40%;
+    margin-bottom: 20px;
+  }
+  .logos-ipsum-container {
+    flex-wrap: wrap;
+  }
+  .logo-ipsum:first-child,
+  .logo-ipsum:nth-child(3) {
+    margin-right: 30px;
+  }
+  .more-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .more-img {
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .more-title {
+    margin-bottom: 20px;
+  }
+  .more-description {
+    margin-bottom: 30px;
+  }
+  .about-text {
+    order: 1;
+    text-align: center;
+  }
+  .about-img {
+    order: -1;
+    margin-bottom: 20px;
+  }
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-description {
+    max-width: 550px;
+    line-height: 120%;
+  }
+  .footer-col--1,
+  .footer-col--2,
+  .footer-col--3,
+  .footer-col--4,
+  .footer-col--5 {
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 568px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .hero {
+    padding-bottom: 50px;
+  }
+  .logos-ipsum {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .more {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  .slider {
+    padding-bottom: 100px;
+  }
+  .about {
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 498px) {
+  .logo-name {
+    font-size: 18px;
+  }
+  .logo-img {
+    margin-right: 5px;
+  }
+  .hero-img {
+    width: 310px;
+    height: 310px;
+  }
+  .hero-text {
+    max-width: 310px;
+  }
+  .hero-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .hero-subtitle {
+    font-size: 16px;
+  }
+  .button-name {
+    display: none;
+  }
+  .play-button {
+    margin-right: 0;
+  }
+  .hero-description {
+    margin-bottom: 30px;
+  }
+  .more-img {
+    width: 310px;
+    height: 310px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .more-description,
+  .description,
+  .hero-description {
+    font-size: 14px;
+  }
+  .slide-card-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .slide-card-description {
+    font-size: 14px;
+    line-height: 130%;
+  }
+  .about-img {
+    width: 310px;
+    height: 310px;
+  }
+}
+@media (max-width: 348px) {
+  .logo-name {
+    display: none;
+  }
+}

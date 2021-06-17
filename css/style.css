@@ -132,7 +132,8 @@ a {
 }
 .logos-ipsum {
   background-color: #010714;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 .logos-ipsum-container {
   max-width: 1350px;
@@ -375,4 +376,7 @@ a {
   color: #ffffff;
   margin-left: 8px;
   margin-right: 10px;
+}
+.header__burger {
+  display: none;
 }
